@@ -1,5 +1,5 @@
 # Maintainer: Rafael <rafael@rebornos.org>
-# v4.17.2.4460
+# v: 4.17.2.4460
 
 pkgname=4kvideodownloader
 pkgver=4.17.2
