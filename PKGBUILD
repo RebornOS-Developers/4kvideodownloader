@@ -1,8 +1,8 @@
 # Maintainer: Rafael <rafael@rebornos.org>
-# v:4.18.0.4480
+# v:4.18.1.4500
 
 pkgname=4kvideodownloader
-pkgver=4.18.0
+pkgver=4.18.1
 pkgrel=1
 pkgdesc="Enjoy videos anywhere, anytime regardless of whether you are offline."
 arch=('any')
@@ -12,7 +12,7 @@ makedepends=('make')
 provides=(${pkgname})
 conflicts=(${pkgname})
 source=(${url}/${pkgname}_${pkgver}-${pkgrel}_amd64.deb)
-sha512sums=('a6808feee5803d697774d942d545ab585593d1c5ba1cae64831b8757c41ba42b0052a2c9f95e047e0d52f7c2422cec9931def855d736b9467e665031840d2d72')
+sha512sums=('6eac5f37358e2ef068882bf250440a9e75c9f8ae903d510ca314f56449bb180b3575d07f594f1871ad4b97261af348724b6f3a7d2d500dcfb522f1c35d351374')
 
 package() {
            mkdir -p ${pkgdir}/usr/bin
